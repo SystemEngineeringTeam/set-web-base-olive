@@ -22,9 +22,10 @@
 
 ## インストール
 
-ターミナルを開いて, `cd` ワーキングディレクトリに移動して、このプロジェクトをgit cloneしてください。 `git clone git@github.com:SystemEngineeringTeam/set-web-base-olive.git`
-MacOSならばHomebrewを用いて必要なツールをダウンロードします。
-`brew cask install docker`
+ターミナルを開いて, `cd` ワーキングディレクトリに移動して、このプロジェクトをgit cloneしてください。
+`git clone git@github.com:SystemEngineeringTeam/set-web-base-olive.git`  
+MacOSならばHomebrewを用いて必要なツールをダウンロードします。  
+`brew cask install docker`  
 `open /Applications/Docker.app`
 
 ## コントリビューション（貢献）
