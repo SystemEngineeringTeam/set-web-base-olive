@@ -1,10 +1,10 @@
 # set-web-base-olive
 
-SETのWebサイトのベースとなるリポジトリ
+SETのWebサイトのベースとなるリポジトリ
 
 ## 概要
 
-SETのWebサイトのベースとなるリポジトリ
+SETのWebサイトのベースとなるリポジトリ
 
 ## 必要条件
 
@@ -16,8 +16,8 @@
 
 ## 使い方
 
-このプロジェクトがあるディレクトリに移動します。
-`cd set-web-base-olive`
+このプロジェクトがあるディレクトリに移動します。  
+`cd set-web-base-olive`  
 `docker-compose up`
 
 ## インストール
@@ -30,7 +30,7 @@ MacOSならばHomebrewを用いて必要なツールをダウンロードしま�
 
 ## コントリビューション（貢献）
 
-1. [Fork](https://github.com/Yoshikawataiki/vagrant-template/fork)します。
+1. [Fork](https://github.com/Yoshikawataiki/vagrant-template/fork)します。
 2. feature branchを作ります。
 3. あなたの変更をコミットします。
 4. そのブランチにプッシュします。
