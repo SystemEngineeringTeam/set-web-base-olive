@@ -1,18 +1,18 @@
 {
   "name": "set-web-base-olive",
   "version": "1.0.0",
-  "description": "\bSETのWebサイトのベースとなるリポジトリ",
+  "description": "SETのWebサイトのベースとなるリポジトリ",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production --module-bind 'ts=ts-loader' --resolve-extensions .ts,.js",
-    "start": "webpack  --mode development; webpack-dev-server --mode development"
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server"
   },
   "devDependencies": {
     "autoprefixer": "^8.4.1",
     "bulma-scss": "^0.6.0",
     "chart.js": "^2.7.2",
-    "css-loader": "^0.28.11",
+    "css-loader": "^1.0.0",
     "ejs-compiled-loader": "^1.1.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
@@ -24,7 +24,7 @@
     "ts-loader": "^4.3.0",
     "typescript": "^2.8.3",
     "webpack": "^4.8.1",
-    "webpack-cli": "^2.1.3",
+    "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
   },
   "repository": {
@@ -32,9 +32,10 @@
     "url": "git+https://github.com/SystemEngineeringTeam/set-web-base-olive.git"
   },
   "author": "YoshikawaTaiki",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SystemEngineeringTeam/set-web-base-olive/issues"
   },
-  "homepage": "https://github.com/SystemEngineeringTeam/set-web-base-olive#readme"
+  "homepage": "https://github.com/SystemEngineeringTeam/set-web-base-olive#readme",
+  "dependencies": {}
 }

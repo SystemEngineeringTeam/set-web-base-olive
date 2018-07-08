@@ -3,6 +3,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
+  // mode: 'production',
+  mode: 'development',
   entry: path.resolve(__dirname, './src/ts/main.ts'),
   output: {
     path: path.resolve(__dirname, './public'),
@@ -19,6 +21,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: './about.html',
       template:  './src/about.ejs'
+    }),
+    new HtmlWebpackPlugin({
+      filename: './member.html',
+      template:  './src/member.ejs'
+    }),
+    new HtmlWebpackPlugin({
+      filename: './portfolio.html',
+      template:  './src/portfolio.ejs'
     })
   ],
   resolve: {
