@@ -1,41 +1,23 @@
 # set-web-base-olive
 
->SETのWebサイトのベースとなるリポジトリ
+> Nuxt.js project
 
-## 概要
+## Build Setup
 
-SETのWebサイトのベースとなるリポジトリ
+``` bash
+# install dependencies
+$ npm install # Or yarn install
 
-## 必要条件
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-|ツール|バージョン|
-|:--:|:--:|
-|node|10.6.0|
-|npm|6.1.0|
+# build for production and launch server
+$ npm run build
+$ npm start
 
-## 使い方
+# generate static project
+$ npm run generate
+```
 
-`npm install`でモジュールをインストールします。  
-`npm run start`でサーバを起動。  
-`localhost:8080`にアクセスします。
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
-## Webサイトの公開
-
-`npm run build`によって作成したpublicディレクトリ内のコードを公開するだけ。  
-`webpack.config.js`内の`mode: 'production'`で **ファイルの圧縮を自動的にやってくれます。**
-
-## コントリビューション（貢献）
-
-1. [Fork](https://github.com/SystemEngineeringTeam/set-web-base-olive/fork)します。
-2. feature branchを作ります。
-3. あなたの変更をコミットします。
-4. そのブランチにプッシュします。
-5. プルリクエストを作成します。
-
-## ライセンス
-
-[MIT](https://github.com/SystemEngineeringTeam/set-web-base-olive/blob/master/LICENSE)
-
-## 著者
-
-[YoshikawaTaiki](https://github.com/YoshikawaTaiki)
