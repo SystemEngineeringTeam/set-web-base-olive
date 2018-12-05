@@ -4,7 +4,7 @@
   "description": "Sysken web site",
   "main": "main.tsx",
   "scripts": {
-    "watch": "npx webpack --mode development --watch-poll",
+    "watch": "npx webpack --mode development; webpack-dev-server",
     "build": "npx webpack --mode production --build"
   },
   "author": "YoshikawaTaiki",

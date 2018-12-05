@@ -19,7 +19,7 @@ react/bash:
 npm/install:
 	docker-compose exec react npm install
 
-npm/start:
+npm/watch:
 	docker-compose exec react npm run watch
 
 npm/build:
