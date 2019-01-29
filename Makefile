@@ -12,7 +12,7 @@ docker/stop:
 
 docker/clean:
 	docker-compose rm
-	
+
 react/bash:
 	docker-compose exec react bash
 
